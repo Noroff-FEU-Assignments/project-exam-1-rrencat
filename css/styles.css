@@ -1,0 +1,36 @@
+@import "fonts.css";
+@import "media.css";
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Orator Std";
+}
+
+nav img {
+  max-width: 90px;
+  height: auto;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+nav a:hover,
+.active {
+  text-decoration: underline;
+}
+
+footer {
+  position: relative;
+  background-color: black;
+  color: white;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}

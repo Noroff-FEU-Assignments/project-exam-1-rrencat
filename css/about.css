@@ -1,0 +1,49 @@
+body {
+  background-image: url(../more/images/37414-[Converted].jpg);
+  background-size: cover;
+}
+
+h1,
+h2 {
+  font-family: "JaneAusten", "Lucida Sans", "Lucida Sans Regular",
+    "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+p {
+  font-family: "Orator Std";
+}
+
+.about {
+  max-width: 600px;
+  display: grid;
+}
+
+.about img {
+  max-height: 500px;
+  width: auto;
+}
+
+.stats {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 30px 40px 40px 40px;
+  margin: 200px 0px;
+}
+
+.stats h2 {
+  font-size: 30px;
+}
+
+.about-gallery {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 200px;
+}
+
+.about-gallery img {
+  max-width: 300px;
+  height: auto;
+}

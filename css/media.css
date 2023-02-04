@@ -1,0 +1,26 @@
+/* MOBILE */
+
+@media only screen and (min-width: 600px) {
+  .contact {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+  nav {
+    margin: 10px;
+  }
+}
+
+/* TABLET */
+
+/* DESKTOP */
+@media only screen and (min-width: 992px) {
+  .contact {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  nav {
+    margin: 30px;
+  }
+}

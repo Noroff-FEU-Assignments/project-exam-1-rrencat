@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "JaneAusten";
+  src: url(../more/fonts/JaneAust.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Orator Std";
+  src: url(../more/fonts/Orator-Std-Font.ttf) ("truetype");
+}
