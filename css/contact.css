@@ -4,8 +4,8 @@ body {
 }
 
 h1 {
-  font-family: "Orator Std";
-  font-variant: caps;
+  font-family: "Orator Std", Helvetica, sans-serif;
+  font-variant: small-caps;
 }
 
 h2 {
@@ -23,8 +23,8 @@ h2 {
   text-align: left;
   flex-direction: column;
   margin: 40px;
-  font-family: "Orator Std";
-  padding-bottom: 50px;
+  font-family: "Orator Std", Helvetica, sans-serif;
+  padding-bottom: 150px;
 }
 
 .form-wrapper > * {
@@ -45,7 +45,7 @@ textarea {
   border: 1px solid #790c3a;
   margin: 10px 0px;
   padding: 10px;
-  font-family: "Orator Std";
+  font-family: "Orator Std", Helvetica, sans-serif;
 }
 
 .cta {
@@ -53,6 +53,7 @@ textarea {
   color: white;
   align-items: center;
   font-size: 0.9rem;
+  font-weight: bold;
 }
 
 .form-error {

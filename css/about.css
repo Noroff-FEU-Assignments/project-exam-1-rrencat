@@ -10,23 +10,37 @@ h2 {
 }
 
 p {
-  font-family: "Orator Std";
+  font-family: "Orator Std", Helvetica, sans-serif;
+  font-variant: small-caps;
+}
+
+.about h1 {
+  grid-area: header;
+}
+
+.about p {
+  grid-area: main;
 }
 
 .about {
-  max-width: 600px;
-  display: grid;
+  grid-template-columns: auto;
+  grid-template-areas:
+    "header . sidebar"
+    "main . sidebar";
+  column-gap: 10px;
 }
 
 .about img {
   max-height: 500px;
   width: auto;
+  grid-area: sidebar;
+  padding-top: 50px;
 }
 
 .stats {
   background-color: black;
   color: white;
-  display: flex;
+
   justify-content: space-between;
   text-align: center;
   padding: 30px 40px 40px 40px;
@@ -38,7 +52,6 @@ p {
 }
 
 .about-gallery {
-  display: flex;
   justify-content: space-evenly;
   padding-bottom: 200px;
 }

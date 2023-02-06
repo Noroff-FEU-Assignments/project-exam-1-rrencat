@@ -9,6 +9,46 @@
   nav {
     margin: 10px;
   }
+
+  .about {
+    max-width: 300px;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .about h1 {
+    padding-top: 20px;
+    margin: 0 auto;
+  }
+
+  .about p {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+  .about img {
+    margin: 0 auto;
+    padding-top: 0px;
+  }
+
+  .stats {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .illustration img {
+    max-width: 200px;
+    height: auto;
+    display: flex;
+    margin: 0 auto;
+  }
 }
 
 /* TABLET */
@@ -22,5 +62,30 @@
 
   nav {
     margin: 30px;
+  }
+
+  .about {
+    max-width: 600px;
+    margin: 0 auto;
+    display: grid;
+  }
+
+  .about h1 {
+    padding-top: 150px;
+    padding-bottom: 10px;
+  }
+
+  .stats {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .about-gallery {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .illustration img {
+    max-width: 800px;
   }
 }

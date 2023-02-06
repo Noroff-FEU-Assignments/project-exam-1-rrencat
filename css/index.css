@@ -1,0 +1,67 @@
+@import "contact.css";
+
+body {
+  background-image: none;
+}
+
+h1,
+h3,
+p {
+  font-family: "Orator Std", Helvetica, sans-serif;
+  font-variant: small-caps;
+}
+
+h2,
+h4,
+h5 {
+  font-family: "JaneAusten";
+}
+
+.welcome-home {
+  background-image: url("../more/images/pexels-adi-perets-4125993.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+  min-height: 120vh;
+  position: relative;
+}
+
+img {
+  max-height: 500px;
+  width: auto;
+}
+
+.home-about {
+  max-width: 600px;
+  display: flex;
+  margin: 0 auto;
+  padding: 200px;
+  gap: 30px;
+  align-items: initial;
+}
+
+.home-about h5 {
+  font-size: 2rem;
+}
+
+.contact-home {
+  background-image: url("../more/images/pexels-element-digital-1051075.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+  min-height: 120vh;
+  position: relative;
+}
+
+.contact {
+  padding-top: 100px;
+}
+
+.form-error {
+  background-color: white;
+  border: 1px solid #790c3a;
+  margin: 10px 0px;
+  padding: 10px;
+}

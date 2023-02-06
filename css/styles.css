@@ -6,7 +6,7 @@ nav {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  font-family: "Orator Std";
+  font-family: "Orator Std", Helvetica, sans-serif;
 }
 
 nav img {
@@ -25,12 +25,24 @@ nav a:hover,
 }
 
 footer {
+  font-family: "Orator Std", Helvetica, sans-serif;
   position: relative;
   background-color: black;
   color: white;
+  text-align: center;
+  padding: 30px;
 }
 
 footer a {
   color: white;
   text-decoration: none;
+}
+
+.cta {
+  background-color: #790c3a;
+  border: 1px solid black;
+  color: white;
+  align-items: center;
+  font-size: 0.9rem;
+  padding: 10px;
 }
