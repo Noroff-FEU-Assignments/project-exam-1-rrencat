@@ -28,6 +28,7 @@ p {
     "header . sidebar"
     "main . sidebar";
   column-gap: 10px;
+  padding-top: 100px;
 }
 
 .about img {

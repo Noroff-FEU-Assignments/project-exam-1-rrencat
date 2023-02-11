@@ -1,5 +1,9 @@
 @import "contact.css";
 
+nav a {
+  color: white;
+}
+
 body {
   background-image: none;
 }
@@ -17,14 +21,23 @@ h5 {
   font-family: "JaneAusten";
 }
 
+h2 {
+  font-size: 2.3rem;
+}
+
 .welcome-home {
   background-image: url("../more/images/pexels-adi-perets-4125993.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position-x: right;
-  background-position-y: bottom;
-  min-height: 120vh;
+  background-position: center;
+  min-height: 100vh;
+}
+
+.welcome-home-text {
+  color: white;
   position: relative;
+  text-align: center;
+  top: 500px;
 }
 
 img {

@@ -1,6 +1,6 @@
 /* MOBILE */
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 200px) {
   .contact {
     max-width: 300px;
     margin: 0 auto;
@@ -13,22 +13,9 @@
   .about {
     max-width: 300px;
     margin: 0 auto;
-    display: block;
-  }
-
-  .about h1 {
-    padding-top: 20px;
-    margin: 0 auto;
-  }
-
-  .about p {
-    max-width: 300px;
-    margin: 0 auto;
-  }
-
-  .about img {
-    margin: 0 auto;
-    padding-top: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .stats {
@@ -40,7 +27,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 30px;
+    gap: 40px;
   }
 
   .illustration img {
@@ -48,6 +35,10 @@
     height: auto;
     display: flex;
     margin: 0 auto;
+  }
+
+  .welcome-home {
+    min-height: 140vh;
   }
 }
 
