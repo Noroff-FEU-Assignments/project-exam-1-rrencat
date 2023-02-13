@@ -12,7 +12,7 @@ h1,
 h3,
 p {
   font-family: "Orator Std", Helvetica, sans-serif;
-  font-variant: small-caps;
+  text-transform: capitalize;
 }
 
 h2,

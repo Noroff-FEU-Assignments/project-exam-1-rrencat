@@ -1,0 +1,48 @@
+@import "/css/loader.css";
+@import "/css/error.css";
+
+nav a {
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Orator Std", Helvetica, sans-serif;
+  margin: 50px 0px;
+}
+
+.wp-block-cover img {
+  max-width: fit-content;
+  height: auto;
+}
+
+.blog-details {
+  max-width: 600px;
+}
+
+.blog-details p {
+  display: flex;
+  padding-top: 20px;
+  font-family: "Orator Std", Helvetica, sans-serif;
+}
+
+.wp-block-gallery {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  margin: 50px 20px;
+}
+
+.wp-block-gallery img {
+  justify-content: space-between;
+  max-width: 200px;
+  height: auto;
+}
+
+.breadcrumb-nav a {
+  margin-top: 100px;
+  margin-bottom: 1em;
+  padding-bottom: 0.5em;
+  text-decoration: none;
+}

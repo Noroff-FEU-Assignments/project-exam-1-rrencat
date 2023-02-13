@@ -1,0 +1,10 @@
+.error {
+  border: 1px solid #790c3a;
+  color: #790c3a;
+  background: lightgray;
+  padding: 1em;
+}
+
+.error:after {
+  content: "An error occurred.";
+}
