@@ -10,7 +10,7 @@ const id = params.get("id");
 console.log(id);
 
 
-const url = "http://localhost/exam-1/wp-json/wp/v2/posts/" + id ;
+const url = "https://www.rrencat.one/wp-json/wp/v2/posts/" + id ;
 
 console.log(url);
 

@@ -11,9 +11,8 @@ h1 {
   padding: 50px 0;
 }
 
-.wp-block-cover img {
-  max-width: fit-content;
-  height: auto;
+.cover {
+  background-size: cover;
 }
 
 .blog-details p {

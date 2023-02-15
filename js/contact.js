@@ -36,6 +36,7 @@ function validateForm(event) {
     }
 
     console.log("EUREKA!");
+
 }
 
 form.addEventListener("submit", validateForm);

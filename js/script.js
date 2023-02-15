@@ -1,6 +1,6 @@
 const container = document.querySelector(".results");
 
-const url = "http://localhost/exam-1/wp-json/wp/v2/posts?_embed";
+const url = "https://www.rrencat.one/wp-json/wp/v2/posts?_embed";
 
 
 async function getDetails() {
