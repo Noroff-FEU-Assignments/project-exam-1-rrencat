@@ -31,7 +31,7 @@ nav a {
 
 nav a:hover,
 .active {
-  text-decoration: underline;
+  border-bottom: 1px solid;
 }
 
 footer {
@@ -48,9 +48,14 @@ footer a {
   text-decoration: none;
 }
 
+footer p {
+  padding-top: 20px;
+  font-size: 0.7rem;
+}
+
 .cta {
   background-color: #790c3a;
-  border: 1px solid black;
+  box-shadow: 1px;
   color: white;
   align-items: center;
   font-size: 0.9rem;

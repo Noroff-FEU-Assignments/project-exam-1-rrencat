@@ -1,0 +1,38 @@
+.results {
+  display: flex;
+  flex-flow: row wrap;
+  text-align: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  max-width: 300px;
+  margin: 1rem;
+  border-radius: 1rem;
+  text-decoration: none;
+}
+
+.name {
+  font-size: 16px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+  font-family: "Orator Std", Helvetica, sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.image {
+  height: 150px;
+  background-size: cover;
+  background-position: center top;
+}
+
+.card div.details {
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 1.25rem;
+  background: black;
+}

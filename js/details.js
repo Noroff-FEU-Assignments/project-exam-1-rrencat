@@ -40,3 +40,5 @@ function createHtml(details) {
 
     title.innerHTML = `Adventure Awaits | Blog | ${details.title.rendered}`;
 }
+
+

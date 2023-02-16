@@ -1,4 +1,5 @@
-@import "contact.css";
+@import "/css/contact.css";
+@import "/css/card.css";
 
 nav a {
   color: white;
@@ -12,7 +13,7 @@ h1,
 h3,
 p {
   font-family: "Orator Std", Helvetica, sans-serif;
-  text-transform: capitalize;
+  text-transform: uppercase;
 }
 
 h2,
@@ -23,6 +24,11 @@ h5 {
 
 h2 {
   font-size: 2.3rem;
+}
+
+h3,
+h4 {
+  font-size: 1.9rem;
 }
 
 .welcome-home {
@@ -45,13 +51,35 @@ img {
   width: auto;
 }
 
+.home-blog {
+  padding: 150px;
+  text-align: center;
+}
+
+.home-about h1 {
+  grid-area: header;
+}
+
+.home-about p {
+  grid-area: main;
+}
+
 .home-about {
-  max-width: 600px;
-  display: flex;
+  grid-template-columns: auto;
+  grid-template-areas:
+    "header . sidebar"
+    "main . sidebar";
+  column-gap: 10px;
+  padding-top: 100px;
   margin: 0 auto;
-  padding: 200px;
-  gap: 30px;
-  align-items: initial;
+  padding-bottom: 150px;
+}
+
+.home-about img {
+  max-height: 500px;
+  width: auto;
+  grid-area: sidebar;
+  padding-top: 50px;
 }
 
 .home-about h5 {
@@ -64,8 +92,9 @@ img {
   background-repeat: no-repeat;
   background-position-x: right;
   background-position-y: bottom;
-  min-height: 120vh;
+  min-height: 100vh;
   position: relative;
+  padding-bottom: 10px;
 }
 
 .contact {
