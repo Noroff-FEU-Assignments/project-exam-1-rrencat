@@ -25,19 +25,23 @@
         <nav>
             <a href="index.html">HOME</a>
             <a href="about.html">ABOUT</a>
-            <a href="index.html"> <img src="/more/logos/logo.png" alt="Adventure Awaits logo"> </a>
+            <img src="/more/logos/logo.png" alt="Adventure Awaits logo">
             <a href="blog.html" class="active">BLOG</a>
             <a href="contact.html">CONTACT</a>
         </nav>
     </header>
-    <main class="container content">   
-        <h1>The blog</h1>     
-        <div class="results">
-            <div class="loader"></div>
-        </div> 
-        <div>
-            <input type="submit" value="MORE POSTS" class="cta">
-        </div>
+    <main>
+        <section class="container content">
+            <h1>The blog</h1>     
+            <div class="results">
+                <div class="loader"></div>
+            </div> 
+            <div>
+                <input type="submit" id="load-more" value="load more" class="cta" onclick="hideButton()">
+                
+            </div>
+        </section>   
+        
     </main>
     <footer>
         <div>

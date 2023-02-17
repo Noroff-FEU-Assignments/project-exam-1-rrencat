@@ -9,14 +9,11 @@ body {
   flex-direction: column;
 }
 
-.content {
-  flex: 1 0 auto;
-}
-
 .container {
-  width: 100%;
-  max-width: 1000px;
-  margin: 40px auto 0 auto;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 25px 20px;
 }
 
 h1 {
@@ -28,8 +25,19 @@ h1 {
   text-align: center;
 }
 
-input {
-  display: block;
-  margin: 0 auto;
+#load-more {
+  margin-top: 20px;
+  display: inline-block;
+  padding: 13px 30px;
+  border: 1px solid #790c3a;
+  color: #fff;
+  font-size: 16px;
+  background-color: #fff;
+  cursor: pointer;
+  background-color: #790c3a;
   margin-bottom: 100px;
+}
+
+#load-more:hover {
+  background-color: #000;
 }
