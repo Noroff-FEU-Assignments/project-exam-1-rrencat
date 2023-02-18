@@ -24,6 +24,7 @@ async function fetchBlogPost() {
 
         createHtml(getPosts);
 
+
     }
     catch(error) {
         console.log(error);
@@ -39,6 +40,7 @@ function createHtml(details) {
                                 </div>`;
 
     title.innerHTML = `Adventure Awaits | Blog | ${details.title.rendered}`;
+
 }
 
 

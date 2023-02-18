@@ -19,7 +19,11 @@ async function getDetails() {
             const image = getPosts[i]._embedded["wp:featuredmedia"][0].source_url;
             const id = getPosts[i].id;
 
-            console.log(title);
+            // console.log(title);
+
+            
+
+            
 
             if (i === 8) {
                 break;
@@ -31,6 +35,8 @@ async function getDetails() {
                                                     <h4 class="name">${title}</h4>
                                                 </div>
                                             </a>`;
+
+            
         }
 
         
