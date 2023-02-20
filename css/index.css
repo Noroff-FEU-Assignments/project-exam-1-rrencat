@@ -52,7 +52,7 @@ img {
 }
 
 .home-blog {
-  padding: 150px;
+  margin: 150px 0 20px 0;
   text-align: center;
 }
 
@@ -108,9 +108,12 @@ img {
   padding: 10px;
 }
 
-.blog-feature {
+.slideshow-container {
+  max-width: 1000px;
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  margin-bottom: 200px;
+  justify-content: space-between;
+  position: relative;
+  margin: auto;
+  overflow: scroll;
+  margin-bottom: 100px;
 }
