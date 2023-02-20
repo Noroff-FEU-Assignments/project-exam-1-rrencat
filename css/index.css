@@ -108,12 +108,4 @@ img {
   padding: 10px;
 }
 
-.slideshow-container {
-  max-width: 1000px;
-  display: flex;
-  justify-content: space-between;
-  position: relative;
-  margin: auto;
-  overflow: scroll;
-  margin-bottom: 100px;
-}
+
