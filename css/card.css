@@ -1,12 +1,13 @@
 .results {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 10px;
   margin-bottom: 50px;
 }
 
 .card {
-  max-width: 300px;
+  width: 300px;
   margin: 1rem;
   border-radius: 1rem;
   text-decoration: none;

@@ -22,13 +22,15 @@ async function getDetails() {
 
             console.log(title);
             
+           
+                container.innerHTML += `<a href="details.html?id=${id}" class="card">
+                <div class="image" style="background-image: url(${image})"></div>
+                <div class="details">
+                    <h4 class="name">${title}</h4>
+                </div>
+                </a>`;  
 
-            container.innerHTML += `<a href="details.html?id=${id}" class="card">
-                                                <div class="image" style="background-image: url(${image})"></div>
-                                                <div class="details">
-                                                    <h4 class="name">${title}</h4>
-                                                </div>
-                                            </a>`;  
+            
         }
         
         
