@@ -8,6 +8,7 @@ const subjectError = document.querySelector("#subject-error");
 const yourMessage = document.querySelector("#message");
 const messageError = document.querySelector("#message-error");
 
+
 function validateForm(event) {
     event.preventDefault();
 
@@ -34,6 +35,7 @@ function validateForm(event) {
     } else {
         messageError.style.display = "block";
     }
+    
 
     console.log("EUREKA!");
 
@@ -55,3 +57,4 @@ function validateEmail(email) {
     const patternMatches = regEx.test(email);
     return patternMatches;
 }
+
