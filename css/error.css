@@ -3,6 +3,8 @@
   color: #790c3a;
   background: lightgray;
   padding: 1em;
+  margin: 200px 50px;
+  position: relative;
 }
 
 .error:after {

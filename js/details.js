@@ -2,9 +2,7 @@ const detailContainer = document.querySelector(".blog-details");
 const title = document.querySelector("title");
 
 const queryString = document.location.search;
-
 const params = new URLSearchParams(queryString);
-
 const id = params.get("id");
 
 console.log(id);
@@ -22,23 +20,26 @@ async function fetchBlogPost() {
         
         console.log(getPosts);
 
-        createHtml(getPosts);
 
+        createHtml(getPosts);
+       
 
     }
     catch(error) {
         console.log(error);
-        detailContainer.innerHTML = message("error", error);
+        detailContainer.innerHTML = message("error");
     }
 }
 
 fetchBlogPost();
+
 
 function createHtml(details) {
     detailContainer.innerHTML = `<div>
                                     ${details.content.rendered}
                                 </div>`;
 
-    title.innerHTML = `Adventure Awaits | Blog | ${details.title.rendered}`;
- 
+    title.innerHTML = `Adventure Awaits | Blog | ${details.title.rendered}`;   
+
+       
 }

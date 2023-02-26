@@ -1,4 +1,5 @@
 @import "/css/loader.css";
+@import "/css/error.css";
 
 nav a {
   color: white;
