@@ -1,8 +1,8 @@
 # Adventure Awaits - a travel blog
+
 Noroff Project Exam 1
 
-
-![image](https://user-images.githubusercontent.com/52622303/164316813-4b12d99f-aeb7-4069-85cf-e72b3a50ac99.png)
+![image](/more/images/Adventure-Awaits-travel-blog-desktop-homepage-exam-project.jpg)
 
 A simple overview of the use/purpose of the project.
 
