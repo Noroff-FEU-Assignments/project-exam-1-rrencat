@@ -4,17 +4,29 @@ Noroff Project Exam 1
 
 ![image](/more/images/Adventure-Awaits-travel-blog-desktop-homepage-exam-project.jpg)
 
-A simple overview of the use/purpose of the project.
+To put into practice the skills learned over my first year of studies.
 
 ## Description
 
-Add a more detailed description of what your project entails and set out to do.
+This project exam entails to showcase and combine the different code languages we learned throughout the first year of our front-end development studies at Noroff - School of technology and digital media.
 
-You can add some bullet points if you'd like to:
+As per the assignment brief the project sets out to create a blog, where design and topic is up to each student. I decided to make a travel blog with a clean and modern design.
 
-- List item 1
-- List item 2
-- List item 3
+We were briefed to make at least 12 blogs for your website. We could use lorem ipsum for paragraphs if you needed, but headings, images etc. should all make sense. The content for our website would be stored on a WordPress installation used as a Headless CMS.
+
+The content of the blog specific page should be dynamically built using a query string parameter based on whatever link the user clicked. The title of the blog specific page should change based on the blog that has been clicked on e.g. “My Blog | An Article I Wrote”. Which in my case turned to "Adwenture Awaits | Blog | Explore Italy" etc.
+
+The project required the following site architecture:
+
+- Home page
+- About page
+- List of blog posts
+- Blog post specific pages
+- Contact page.
+  - Name (Should be more than 5 characters long)
+  - Email address (Must be a valid email address)
+  - Subject (Should be more than 15 characters long)
+  - Message content (Should be more than 25 characters long)
 
 ## Built With
 
@@ -22,43 +34,8 @@ You can add some bullet points if you'd like to:
 - CSS
 - FontFace
 - JavaScript
-
-## Getting Started
-
-### Installing
-
-This is where you list how to get the project started. It typically just includes telling a person to clone the repo and then to install the dependencies e.g.
-
-1. Clone the repo:
-
-```bash
-git clone git@github.com:NoroffFEU/portfolio-1-example.git
-```
-
-2. Install the dependencies:
-
-```
-npm install
-```
-
-### Running
-
-Here is where you detail how to run the app. It typically involves the commands you'd need to run to start the project e.g.
-
-To run the app, run the following commands:
-
-```bash
-npm run start
-```
+- Wordpress REST API
 
 ## Contact
-
-This is where you can leave your social links for people to contact you, such as a LinkedIn profile or Twitter link e.g.
-
-[My Twitter page](www.twitter.com)
-
-[My LinkedIn page](www.linkedin.com)
-
-[Email] (rasmussen.renate.rr@gmail.com)
 
 [Email](rasmussen.renate.rr@gmail.com)
