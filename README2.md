@@ -60,3 +60,5 @@ This is where you can leave your social links for people to contact you, such as
 [My LinkedIn page](www.linkedin.com)
 
 [Email] (rasmussen.renate.rr@gmail.com)
+
+[Email](rasmussen.renate.rr@gmail.com)
